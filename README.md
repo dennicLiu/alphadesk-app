@@ -7,6 +7,9 @@
 - 本仓库根目录直下：`AlphaDesk-1.0.1-mac.zip`（Mac 稳定版，约 19MB）、`AlphaDesk-1.0.1-win-beta.zip`（Windows 公测版，约 20MB）
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
+![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-win-beta.zip?label=Win%E4%B8%8B%E8%BD%BD)
+
 ---
 
 ## 安装（2 分钟）
