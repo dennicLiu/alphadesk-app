@@ -5,7 +5,7 @@
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，带版本历史）
 - 本仓库根目录直下：`AlphaDesk-1.0.1-mac.zip`（Mac 稳定版，约 19MB）、`AlphaDesk-1.0.1-win-beta.zip`（Windows 公测版，约 20MB）
-- ✅ 最新正式：`AlphaDesk-1.0.4-mac.zip`（Mac，阿罗智能体+K线大屏+资金面分析+合规补丁）
+- ✅ 最新正式：`AlphaDesk-1.0.5-mac.zip`（Mac，阿罗智能体+K线大屏+激活文件导入+短激活码）
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
 ![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
