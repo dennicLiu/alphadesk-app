@@ -4,12 +4,12 @@
 
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，带版本历史）
-- 本仓库根目录直下：`AlphaDesk-1.0.1-mac.zip`（Mac 稳定版，约 19MB）、`AlphaDesk-1.0.1-win-beta.zip`（Windows 公测版，约 20MB）
-- ✅ 最新正式：`AlphaDesk-1.0.5-mac.zip`（Mac，阿罗智能体+K线大屏+激活文件导入+短激活码）
+- 本仓库根目录直下：`AlphaDesk-1.0.5-mac.zip`（Mac 正式版，约 19MB）、`AlphaDesk-1.0.5-win.zip`（Windows 正式版，约 19MB）
+- ✅ 最新正式（双平台）：`AlphaDesk-1.0.5-mac.zip`（Mac）、`AlphaDesk-1.0.5-win.zip`（Windows）——阿罗智能体 + K线大屏 + 激活文件导入 + 103 字符短码
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
 ![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
-![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-win-beta.zip?label=Win%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.5-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
 
 ---
 
@@ -25,9 +25,9 @@
 3. 双击 `AlphaDesk.app`，图标进 Dock，约 3 秒后浏览器自动打开 `http://127.0.0.1:8200`。
 4. 退出：在 Dock 图标右键 → 退出（或浏览器标签关掉后 Dock 退出）。
 
-## Windows 版（公测）
+## Windows 版
 
-1. 下载 `AlphaDesk-1.0.1-win-beta.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
+1. 下载 `AlphaDesk-1.0.5-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
 2. 双击 `start.bat` 启动（黑窗口一闪即后台运行，属正常）。
 3. 浏览器自动打开 `http://127.0.0.1:8200`；没自动打开就手动输这个地址。
 4. 若被 SmartScreen 拦截（"Windows 已保护你的电脑"）：点"更多信息" → "仍要运行"。
@@ -35,7 +35,8 @@
 6. 退出：关闭黑窗口即可（或任务管理器结束 `AlphaDesk.exe`）。
 7. 数据在解压目录下的 `AlphaDesk\\data`，换电脑整个文件夹拷走。
 
-> Windows 版为公测：云端构建成功，待更多真机验证。遇到问题加微信 `964468802` 反馈，优先修。
+> Windows 版与 Mac 版功能一致（阿罗智能体 + K线大屏 + 激活文件导入），均为 v1.0.5。
+> 遇到问题加微信 `964468802` 反馈，优先修。
 
 > 要求：macOS 11+（Intel / Apple 芯片均可），磁盘 200MB，联网取行情。
 
