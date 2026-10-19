@@ -4,12 +4,12 @@
 
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，带版本历史）
-- 本仓库根目录直下：`AlphaDesk-1.0.14-mac.zip`（Mac 正式版，约 19MB）、`AlphaDesk-1.0.14-win.zip`（Windows 正式版，约 19MB）
-- ✅ 最新正式（双平台）：`AlphaDesk-1.0.14-mac.zip`（Mac）、`AlphaDesk-1.0.14-win.zip`（Windows）——阿罗智能体 + K线大屏 + 激活文件导入 + 103 字符短码
+- 本仓库根目录直下：`AlphaDesk-1.0.18-mac.zip`（Mac 正式版）、`AlphaDesk-1.0.18-win.zip`（Windows 正式版）
+- ✅ 最新正式（双平台）：`AlphaDesk-1.0.18-mac.zip`（Mac）、`AlphaDesk-1.0.18-win.zip`（Windows）——自我进化进度反馈 + 多板块量化选股/回测
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
-![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.1-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
-![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.1/AlphaDesk-1.0.14-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
+![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.18/AlphaDesk-1.0.18-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.18/AlphaDesk-1.0.18-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
 
 ---
 
@@ -22,20 +22,20 @@
      - 在"应用程序"里：`xattr -cr /Applications/AlphaDesk.app`
      - 在"下载"文件夹：`xattr -cr ~/Downloads/AlphaDesk.app`
    - 然后**右键点击 App → 选择"打开"**，点"打开"确认。
-3. 双击 `AlphaDesk.app`，图标进 Dock，约 3 秒后浏览器自动打开 `http://127.0.0.1:8200`。
+3. 双击 `AlphaDesk.app` 启动服务，然后在浏览器手动打开 `http://127.0.0.1:8200`。
 4. 退出：在 Dock 图标右键 → 退出（或浏览器标签关掉后 Dock 退出）。
 
 ## Windows 版
 
-1. 下载 `AlphaDesk-1.0.14-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
+1. 下载 `AlphaDesk-1.0.18-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
 2. 双击 `start.bat` 启动（黑窗口一闪即后台运行，属正常）。
-3. 浏览器自动打开 `http://127.0.0.1:8200`；没自动打开就手动输这个地址。
+3. 服务就绪后，在浏览器打开 `http://127.0.0.1:8200`。
 4. 若被 SmartScreen 拦截（"Windows 已保护你的电脑"）：点"更多信息" → "仍要运行"。
 5. 若被杀毒软件误删 `AlphaDesk.exe`：加白名单后重新解压。
 6. 退出：关闭黑窗口即可（或任务管理器结束 `AlphaDesk.exe`）。
 7. 数据在解压目录下的 `AlphaDesk\\data`，换电脑整个文件夹拷走。
 
-> Windows 版与 Mac 版功能一致（阿罗智能体 + K线大屏 + 激活文件导入），均为 v1.0.14。
+> Windows 版与 Mac 版功能一致，均为 v1.0.18。
 > 遇到问题加微信 `964468802` 反馈，优先修。
 
 > 要求：macOS 11+（Intel / Apple 芯片均可），磁盘 200MB，联网取行情。
@@ -61,7 +61,8 @@
 
 ## 版本历史
 
-- **v1.0.1**（当前）：新增模拟持仓、战绩一键成图、收盘补跑、换机申请；港股代码池备用源。
+- **v1.0.18**（当前）：量化自我进化启动即时反馈与后台股票池进度；回测/选股支持更多 A 股板块范围；优化策略兼容和回测风控布局。
+- **v1.0.17**：新增日韩指数跟踪与授权时间校验。
 - **v1.0.0**：首个正式版本。智能选股器（自然语言+条件胜率+增量推送）、量化实验室（回测/组合/滚动窗口/样本内外检验）、AI 自我进化（样本外门控）、因子 IC、大盘环境、板块轮动、AI 分析。
 
 ---
