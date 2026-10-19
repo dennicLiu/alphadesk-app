@@ -3,8 +3,7 @@
 装在自己电脑上的量化研究软件：**一句话选股 · 策略回测 · AI 自我进化**，数据全在本地，不注册不登录。
 
 📥 **下载**（两种方式任选）：
-- 右侧 [Releases](../../releases)（推荐，带版本历史）
-- 本仓库根目录直下：`AlphaDesk-1.0.18-mac.zip`（Mac 正式版）、`AlphaDesk-1.0.18-win.zip`（Windows 正式版）
+- 右侧 [Releases](../../releases)（推荐，下载最新 Mac / Windows 安装包并查看版本历史）
 - ✅ 最新正式（双平台）：`AlphaDesk-1.0.18-mac.zip`（Mac）、`AlphaDesk-1.0.18-win.zip`（Windows）——自我进化进度反馈 + 多板块量化选股/回测
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
