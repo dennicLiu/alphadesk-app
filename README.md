@@ -4,13 +4,13 @@
 
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，下载最新 Mac / Windows 安装包并查看版本历史）
-- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.19-mac.zip`（Mac）、`AlphaDesk-1.0.19-win.zip`（Windows）——全托管无限进化 + 回测撮合口径修正
+- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.20-mac.zip`（Mac）、`AlphaDesk-1.0.20-win.zip`（Windows）——全托管无限进化 + 回测撮合口径修正
 - 仓库根目录里的 zip 仅为 v1.0.1–v1.0.14 历史归档，**请不要下载**；新版本一律走 Releases。
 
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
-![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.19/AlphaDesk-1.0.19-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
-![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.19/AlphaDesk-1.0.19-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
+![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.20/AlphaDesk-1.0.20-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.20/AlphaDesk-1.0.20-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
 
 ---
 
@@ -23,20 +23,20 @@
      - 在"应用程序"里：`xattr -cr /Applications/AlphaDesk.app`
      - 在"下载"文件夹：`xattr -cr ~/Downloads/AlphaDesk.app`
    - 然后**右键点击 App → 选择"打开"**，点"打开"确认。
-3. 双击 `AlphaDesk.app` 启动服务，然后在浏览器手动打开 `http://127.0.0.1:8200`。
+3. 双击 `AlphaDesk.app` 启动服务；服务就绪后会自动打开浏览器，如未打开再手动访问 `http://127.0.0.1:8200`。
 4. 退出：在 Dock 图标右键 → 退出（或浏览器标签关掉后 Dock 退出）。
 
 ## Windows 版
 
-1. 下载 `AlphaDesk-1.0.19-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
+1. 下载 `AlphaDesk-1.0.20-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
 2. 双击 `start.bat` 启动（黑窗口一闪即后台运行，属正常）。
-3. 服务就绪后，在浏览器打开 `http://127.0.0.1:8200`。
+3. 服务就绪后会自动打开浏览器；如未打开，再访问 `http://127.0.0.1:8200`。
 4. 若被 SmartScreen 拦截（"Windows 已保护你的电脑"）：点"更多信息" → "仍要运行"。
 5. 若被杀毒软件误删 `AlphaDesk.exe`：加白名单后重新解压。
 6. 退出：关闭黑窗口即可（或任务管理器结束 `AlphaDesk.exe`）。
 7. 数据在解压目录下的 `AlphaDesk\\data`，换电脑整个文件夹拷走。
 
-> Windows 版与 Mac 版功能一致，均为 v1.0.19。
+> Windows 版与 Mac 版功能一致，均为 v1.0.20。
 > 遇到问题加微信 `964468802` 反馈，优先修。
 
 > 要求：macOS 11+（Intel / Apple 芯片均可），磁盘 200MB，联网取行情。
@@ -62,7 +62,8 @@
 
 ## 版本历史
 
-- **v1.0.19**（当前）：全托管策略进化改为无限迭代，直到你手动暂停才停（轮数变成"每多少轮存档"）；运行中实时刷新冠军与排行，暂停会跑完当前轮再保存退出。回测改为停牌/无成交量日不撮合、印花税按 2023-08-28 起 0.5‰ 自动切换、涨跌停限幅支持逐日数据覆盖。前端静态资源版本按文件内容自动生成，升级后无需清缓存。
+- **v1.0.20**（当前）：策略进化改为训练/探索/稳健分层评分，使用 3 个重叠滚动验证窗和成本 +50% 压力测试；默认 520 根日K，增加随机探索和候选验证覆盖；历史记录保存股票范围与代码快照；服务就绪后自动打开浏览器。
+- **v1.0.19**：全托管策略进化改为无限迭代，直到你手动暂停才停（轮数变成"每多少轮存档"）；运行中实时刷新冠军与排行，暂停会跑完当前轮再保存退出。回测改为停牌/无成交量日不撮合、印花税按 2023-08-28 起 0.5‰ 自动切换、涨跌停限幅支持逐日数据覆盖。前端静态资源版本按文件内容自动生成，升级后无需清缓存。
 - **v1.0.18**：量化自我进化启动即时反馈与后台股票池进度；回测/选股支持更多 A 股板块范围；优化策略兼容和回测风控布局。
 - **v1.0.17**：新增日韩指数跟踪与授权时间校验。
 - **v1.0.0**：首个正式版本。智能选股器（自然语言+条件胜率+增量推送）、量化实验室（回测/组合/滚动窗口/样本内外检验）、AI 自我进化（样本外门控）、因子 IC、大盘环境、板块轮动、AI 分析。
