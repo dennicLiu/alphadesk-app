@@ -4,7 +4,7 @@
 
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，下载最新 Mac / Windows 安装包并查看版本历史）
-- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.20-mac.zip`（Mac）、`AlphaDesk-1.0.20-win.zip`（Windows）——全托管无限进化 + 回测撮合口径修正
+- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.20-mac.zip`（Mac）、`AlphaDesk-1.0.20-win.zip`（Windows）——策略进化评分升级 + 滚动验证 + 浏览器自动打开
 - 仓库根目录里的 zip 仅为 v1.0.1–v1.0.14 历史归档，**请不要下载**；新版本一律走 Releases。
 
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
