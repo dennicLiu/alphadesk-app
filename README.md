@@ -9,8 +9,8 @@
 
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
-![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.20/AlphaDesk-1.0.21-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
-![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.20/AlphaDesk-1.0.21-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
+![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.21/AlphaDesk-1.0.21-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.21/AlphaDesk-1.0.21-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
 
 ---
 
