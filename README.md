@@ -4,13 +4,13 @@
 
 📥 **下载**（两种方式任选）：
 - 右侧 [Releases](../../releases)（推荐，下载最新 Mac / Windows 安装包并查看版本历史）
-- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.21-mac.zip`（Mac）、`AlphaDesk-1.0.21-win.zip`（Windows）——新增分时做 T 隔离模拟与自动策略风控；不连接券商，不发送真实委托
+- ✅ 最新正式（双平台，附件在该 Releases 页面内）：`AlphaDesk-1.0.22-mac.zip`（Mac）、`AlphaDesk-1.0.22-win.zip`（Windows）——分时做 T 行情回退状态标注、自动策略暂停原因与行情跳过事件可追溯；日 K 不用于自动做 T
 - 仓库根目录里的 zip 仅为 v1.0.1–v1.0.14 历史归档，**请不要下载**；新版本一律走 Releases。
 
 📖 **完整文档**：https://dennicliu.github.io/alphadesk-docs/
 
-![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.21/AlphaDesk-1.0.21-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
-![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.21/AlphaDesk-1.0.21-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
+![Mac下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.22/AlphaDesk-1.0.22-mac.zip?label=Mac%E4%B8%8B%E8%BD%BD)
+![Win下载](https://img.shields.io/github/downloads/dennicLiu/alphadesk-app/v1.0.22/AlphaDesk-1.0.22-win.zip?label=Win%E4%B8%8B%E8%BD%BD)
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## Windows 版
 
-1. 下载 `AlphaDesk-1.0.21-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
+1. 下载 `AlphaDesk-1.0.22-win.zip`，解压到任意目录（**路径不要有中文，建议直接放桌面**）。
 2. 双击 `start.bat` 启动（黑窗口一闪即后台运行，属正常）。
 3. 服务就绪后会自动打开浏览器；如未打开，再访问 `http://127.0.0.1:8200`。
 4. 若被 SmartScreen 拦截（"Windows 已保护你的电脑"）：点"更多信息" → "仍要运行"。
@@ -36,7 +36,7 @@
 6. 退出：关闭黑窗口即可（或任务管理器结束 `AlphaDesk.exe`）。
 7. 数据在解压目录下的 `AlphaDesk\\data`，换电脑整个文件夹拷走。
 
-> Windows 版与 Mac 版功能一致，均为 v1.0.21。
+> Windows 版与 Mac 版功能一致，均为 v1.0.22。
 > 遇到问题加微信 `964468802` 反馈，优先修。
 
 > 要求：macOS 11+（Intel / Apple 芯片均可），磁盘 200MB，联网取行情。
@@ -62,7 +62,8 @@
 
 ## 版本历史
 
-- **v1.0.21**（当前）：新增分时做 T 隔离模拟账户、版本化自动策略、新鲜分钟行情/交易时段校验、T+1/滑点/持仓和亏损风控；仅模拟，不连接券商。同步增加策略搜索反馈与构建冒烟检查。
+- **v1.0.22**（当前）：新增分时做 T 隔离模拟账户、版本化自动策略、新鲜分钟行情/交易时段校验、T+1/滑点/持仓和亏损风控；仅模拟，不连接券商。同步增加策略搜索反馈与构建冒烟检查。
+- **v1.0.22**（当前）：分时行情不可用时明确回退日 K（不参与自动策略）；显示策略等待/暂停原因，并记录无效、缺失、过期行情的跳过事件。自动做 T 仅接受经校验的新鲜分钟线；仅模拟，不连接券商。
 - **v1.0.20**：策略进化训练/探索/稳健分层评分，3 个重叠验证窗和成本 +50% 压力测试；默认 520 根日K，历史记录保存股票范围快照。
 - **v1.0.19**：全托管策略进化改为无限迭代，直到你手动暂停才停（轮数变成"每多少轮存档"）；运行中实时刷新冠军与排行，暂停会跑完当前轮再保存退出。回测改为停牌/无成交量日不撮合、印花税按 2023-08-28 起 0.5‰ 自动切换、涨跌停限幅支持逐日数据覆盖。前端静态资源版本按文件内容自动生成，升级后无需清缓存。
 - **v1.0.18**：量化自我进化启动即时反馈与后台股票池进度；回测/选股支持更多 A 股板块范围；优化策略兼容和回测风控布局。
